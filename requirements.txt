@@ -1,0 +1,22 @@
+pandas
+seaborn
+numpy
+matplotlib
+
+
+-e .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
