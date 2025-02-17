@@ -1,2 +1,11 @@
 2025-02-17 14:49:04,306:INFO:This is a test log message
 2025-02-17 14:49:20,032:INFO:This is a test log message
+2025-02-17 15:18:31,144:INFO:entered the data ingestion method or component
+2025-02-17 15:18:31,152:INFO:data read successfully
+2025-02-17 15:18:31,154:ERROR:error occured while ingesting the data
+2025-02-17 15:20:22,581:INFO:Entered the data ingestion method or component
+2025-02-17 15:20:22,587:INFO:Data read successfully
+2025-02-17 15:20:22,600:INFO:Raw data saved successfully
+2025-02-17 15:20:22,606:INFO:Train-test split done successfully
+2025-02-17 15:20:22,611:INFO:Train data saved successfully
+2025-02-17 15:20:22,613:INFO:Test data saved successfully
