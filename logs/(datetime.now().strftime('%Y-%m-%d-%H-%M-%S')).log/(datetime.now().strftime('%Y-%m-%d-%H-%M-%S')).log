@@ -9,3 +9,76 @@
 2025-02-17 15:20:22,606:INFO:Train-test split done successfully
 2025-02-17 15:20:22,611:INFO:Train data saved successfully
 2025-02-17 15:20:22,613:INFO:Test data saved successfully
+2025-02-17 19:01:10,269:ERROR:Error occurred while transforming the data.
+2025-02-17 19:02:00,338:ERROR:Error occurred while transforming the data.
+2025-02-17 19:02:00,339:INFO:Entered the data ingestion method or component
+2025-02-17 19:02:00,365:INFO:Data read successfully
+2025-02-17 19:02:00,375:INFO:Raw data saved successfully
+2025-02-17 19:02:00,383:INFO:Train-test split done successfully
+2025-02-17 19:02:00,386:INFO:Train data saved successfully
+2025-02-17 19:02:00,389:INFO:Test data saved successfully
+2025-02-17 19:02:00,423:INFO:Data loaded successfully.
+2025-02-17 19:02:00,423:INFO:Numerical columns transformation completed.
+2025-02-17 19:02:00,423:INFO:Categorical columns encoding completed.
+2025-02-17 19:03:41,853:INFO:Entered the data ingestion method or component
+2025-02-17 19:03:41,859:INFO:Data read successfully
+2025-02-17 19:03:41,866:INFO:Raw data saved successfully
+2025-02-17 19:03:41,870:INFO:Train-test split done successfully
+2025-02-17 19:03:41,874:INFO:Train data saved successfully
+2025-02-17 19:03:41,877:INFO:Test data saved successfully
+2025-02-17 19:03:41,910:INFO:Data loaded successfully.
+2025-02-17 19:03:41,910:INFO:Numerical columns transformation completed.
+2025-02-17 19:03:41,911:INFO:Categorical columns encoding completed.
+2025-02-17 19:03:41,911:ERROR:Error occurred during data transformation: "['math score'] not found in axis"
+2025-02-17 19:05:04,312:INFO:Entered the data ingestion method or component
+2025-02-17 19:05:04,318:INFO:Data read successfully
+2025-02-17 19:05:04,325:INFO:Raw data saved successfully
+2025-02-17 19:05:04,328:INFO:Train-test split done successfully
+2025-02-17 19:05:04,333:INFO:Train data saved successfully
+2025-02-17 19:05:04,335:INFO:Test data saved successfully
+2025-02-17 19:05:04,368:INFO:Data loaded successfully.
+2025-02-17 19:05:04,368:INFO:Numerical columns transformation completed.
+2025-02-17 19:05:04,368:INFO:Categorical columns encoding completed.
+2025-02-17 19:05:04,369:ERROR:Error occurred during data transformation: "['math score'] not found in axis"
+2025-02-17 19:05:24,694:INFO:Entered the data ingestion method or component
+2025-02-17 19:05:24,701:INFO:Data read successfully
+2025-02-17 19:05:24,708:INFO:Raw data saved successfully
+2025-02-17 19:05:24,710:INFO:Train-test split done successfully
+2025-02-17 19:05:24,714:INFO:Train data saved successfully
+2025-02-17 19:05:24,716:INFO:Test data saved successfully
+2025-02-17 19:05:24,748:INFO:Data loaded successfully.
+2025-02-17 19:05:24,748:INFO:Numerical columns transformation completed.
+2025-02-17 19:05:24,748:INFO:Categorical columns encoding completed.
+2025-02-17 19:05:24,781:ERROR:Error occurred during data transformation: A given column is not a column of the dataframe
+2025-02-17 19:06:56,541:INFO:Entered the data ingestion method or component
+2025-02-17 19:06:56,547:INFO:Data read successfully
+2025-02-17 19:06:56,553:INFO:Raw data saved successfully
+2025-02-17 19:06:56,555:INFO:Train-test split done successfully
+2025-02-17 19:06:56,559:INFO:Train data saved successfully
+2025-02-17 19:06:56,562:INFO:Test data saved successfully
+2025-02-17 19:06:56,594:INFO:Data loaded successfully.
+2025-02-17 19:06:56,595:INFO:Numerical columns transformation completed.
+2025-02-17 19:06:56,595:INFO:Categorical columns encoding completed.
+2025-02-17 19:06:56,597:ERROR:Error occurred during data transformation: A given column is not a column of the dataframe
+2025-02-17 19:08:23,201:INFO:Entered the data ingestion method or component
+2025-02-17 19:08:23,235:INFO:Data read successfully
+2025-02-17 19:08:23,243:INFO:Raw data saved successfully
+2025-02-17 19:08:23,246:INFO:Train-test split done successfully
+2025-02-17 19:08:23,251:INFO:Train data saved successfully
+2025-02-17 19:08:23,253:INFO:Test data saved successfully
+2025-02-17 19:08:23,293:INFO:Data loaded successfully.
+2025-02-17 19:08:23,293:INFO:Numerical columns transformation completed.
+2025-02-17 19:08:23,293:INFO:Categorical columns encoding completed.
+2025-02-17 19:08:23,296:ERROR:Error occurred during data transformation: A given column is not a column of the dataframe
+2025-02-17 19:11:15,511:INFO:Entered the data ingestion method or component
+2025-02-17 19:11:15,518:INFO:Data read successfully
+2025-02-17 19:11:15,524:INFO:Raw data saved successfully
+2025-02-17 19:11:15,527:INFO:Train-test split done successfully
+2025-02-17 19:11:15,531:INFO:Train data saved successfully
+2025-02-17 19:11:15,533:INFO:Test data saved successfully
+2025-02-17 19:11:15,565:INFO:Data loaded successfully.
+2025-02-17 19:11:15,565:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-17 19:11:15,565:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-17 19:11:15,567:INFO:Numerical columns transformation completed.
+2025-02-17 19:11:15,567:INFO:Categorical columns encoding completed.
+2025-02-17 19:11:15,621:INFO:Data transformation completed successfully.
