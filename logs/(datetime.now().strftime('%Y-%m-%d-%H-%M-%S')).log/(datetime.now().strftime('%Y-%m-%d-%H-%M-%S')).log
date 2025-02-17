@@ -82,3 +82,97 @@
 2025-02-17 19:11:15,567:INFO:Numerical columns transformation completed.
 2025-02-17 19:11:15,567:INFO:Categorical columns encoding completed.
 2025-02-17 19:11:15,621:INFO:Data transformation completed successfully.
+2025-02-18 01:34:39,102:INFO:Entered the data ingestion method or component
+2025-02-18 01:34:39,105:ERROR:Error occurred while ingesting the data
+2025-02-18 01:34:43,708:INFO:Entered the data ingestion method or component
+2025-02-18 01:34:43,710:ERROR:Error occurred while ingesting the data
+2025-02-18 01:34:48,266:INFO:Entered the data ingestion method or component
+2025-02-18 01:34:48,268:ERROR:Error occurred while ingesting the data
+2025-02-18 01:34:52,628:INFO:Entered the data ingestion method or component
+2025-02-18 01:34:52,630:ERROR:Error occurred while ingesting the data
+2025-02-18 01:35:24,034:INFO:Entered the data ingestion method or component
+2025-02-18 01:35:24,075:INFO:Data read successfully
+2025-02-18 01:35:24,084:INFO:Raw data saved successfully
+2025-02-18 01:35:24,091:INFO:Train-test split done successfully
+2025-02-18 01:35:24,096:INFO:Train data saved successfully
+2025-02-18 01:35:24,099:INFO:Test data saved successfully
+2025-02-18 01:35:24,135:INFO:Data loaded successfully.
+2025-02-18 01:35:24,135:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:35:24,135:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:35:24,144:INFO:Numerical columns transformation completed.
+2025-02-18 01:35:24,144:INFO:Categorical columns encoding completed.
+2025-02-18 01:35:24,175:INFO:Data transformation completed successfully.
+2025-02-18 01:35:24,176:INFO:splitting the data into features and target
+2025-02-18 01:35:29,358:ERROR:error in model training 'r2_score'
+2025-02-18 01:38:35,736:INFO:Entered the data ingestion method or component
+2025-02-18 01:38:35,743:INFO:Data read successfully
+2025-02-18 01:38:35,750:INFO:Raw data saved successfully
+2025-02-18 01:38:35,753:INFO:Train-test split done successfully
+2025-02-18 01:38:35,756:INFO:Train data saved successfully
+2025-02-18 01:38:35,759:INFO:Test data saved successfully
+2025-02-18 01:38:35,803:INFO:Data loaded successfully.
+2025-02-18 01:38:35,803:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:38:35,804:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:38:35,806:INFO:Numerical columns transformation completed.
+2025-02-18 01:38:35,806:INFO:Categorical columns encoding completed.
+2025-02-18 01:38:35,836:INFO:Data transformation completed successfully.
+2025-02-18 01:38:35,837:INFO:splitting the data into features and target
+2025-02-18 01:38:40,748:ERROR:error in model training string indices must be integers, not 'str'
+2025-02-18 01:39:09,562:INFO:Entered the data ingestion method or component
+2025-02-18 01:39:09,593:INFO:Data read successfully
+2025-02-18 01:39:09,600:INFO:Raw data saved successfully
+2025-02-18 01:39:09,603:INFO:Train-test split done successfully
+2025-02-18 01:39:09,610:INFO:Train data saved successfully
+2025-02-18 01:39:09,614:INFO:Test data saved successfully
+2025-02-18 01:39:09,673:INFO:Data loaded successfully.
+2025-02-18 01:39:09,673:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:39:09,674:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:39:09,681:INFO:Numerical columns transformation completed.
+2025-02-18 01:39:09,681:INFO:Categorical columns encoding completed.
+2025-02-18 01:39:09,742:INFO:Data transformation completed successfully.
+2025-02-18 01:39:09,743:INFO:splitting the data into features and target
+2025-02-18 01:39:14,478:ERROR:error in model training string indices must be integers, not 'str'
+2025-02-18 01:41:12,782:INFO:Entered the data ingestion method or component
+2025-02-18 01:41:12,812:INFO:Data read successfully
+2025-02-18 01:41:12,821:INFO:Raw data saved successfully
+2025-02-18 01:41:12,823:INFO:Train-test split done successfully
+2025-02-18 01:41:12,829:INFO:Train data saved successfully
+2025-02-18 01:41:12,831:INFO:Test data saved successfully
+2025-02-18 01:41:12,870:INFO:Data loaded successfully.
+2025-02-18 01:41:12,870:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:41:12,870:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:41:12,872:INFO:Numerical columns transformation completed.
+2025-02-18 01:41:12,872:INFO:Categorical columns encoding completed.
+2025-02-18 01:41:12,898:INFO:Data transformation completed successfully.
+2025-02-18 01:41:12,898:INFO:Splitting the data into features and target
+2025-02-18 01:41:16,831:INFO:Best model found: LinearRegression
+2025-02-18 01:41:16,831:ERROR:Error in model training: save_object() got an unexpected keyword argument 'object_name'
+2025-02-18 01:41:28,365:INFO:Entered the data ingestion method or component
+2025-02-18 01:41:28,390:INFO:Data read successfully
+2025-02-18 01:41:28,397:INFO:Raw data saved successfully
+2025-02-18 01:41:28,400:INFO:Train-test split done successfully
+2025-02-18 01:41:28,404:INFO:Train data saved successfully
+2025-02-18 01:41:28,407:INFO:Test data saved successfully
+2025-02-18 01:41:28,472:INFO:Data loaded successfully.
+2025-02-18 01:41:28,472:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:41:28,473:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:41:28,474:INFO:Numerical columns transformation completed.
+2025-02-18 01:41:28,474:INFO:Categorical columns encoding completed.
+2025-02-18 01:41:28,500:INFO:Data transformation completed successfully.
+2025-02-18 01:41:28,500:INFO:Splitting the data into features and target
+2025-02-18 01:41:32,320:INFO:Best model found: LinearRegression
+2025-02-18 01:41:32,321:ERROR:Error in model training: save_object() got an unexpected keyword argument 'object_name'
+2025-02-18 01:42:44,627:INFO:Entered the data ingestion method or component
+2025-02-18 01:42:44,661:INFO:Data read successfully
+2025-02-18 01:42:44,671:INFO:Raw data saved successfully
+2025-02-18 01:42:44,673:INFO:Train-test split done successfully
+2025-02-18 01:42:44,677:INFO:Train data saved successfully
+2025-02-18 01:42:44,679:INFO:Test data saved successfully
+2025-02-18 01:42:44,713:INFO:Data loaded successfully.
+2025-02-18 01:42:44,713:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:42:44,713:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 01:42:44,715:INFO:Numerical columns transformation completed.
+2025-02-18 01:42:44,715:INFO:Categorical columns encoding completed.
+2025-02-18 01:42:44,740:INFO:Data transformation completed successfully.
+2025-02-18 01:42:44,741:INFO:Splitting the data into features and target
+2025-02-18 01:42:48,532:INFO:Best model found: LinearRegression

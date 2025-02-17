@@ -8,7 +8,7 @@ from src.logger import logging
 
 from data_transformation import DataTransformation
 from data_transformation import DataTransformationConfig  
-
+from model_training import ModelTrainer
 @dataclass
 class DataIngestionConfig:
     train_data_path: str = os.path.join('artifacts', 'train.csv')
@@ -22,7 +22,7 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info('Entered the data ingestion method or component')
         try:
-            df = pd.read_csv(r'C:\Users\Garv Khurana\OneDrive\Desktop\end_to_end 2\data.csv')  
+            df = pd.read_csv(r'C:\Users\Garv Khurana\OneDrive\Desktop\end_to_end 2\artifacts\data.csv')  
             logging.info('Data read successfully')
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path), exist_ok=True)
@@ -52,4 +52,8 @@ if __name__ == '__main__':
     train_data,test_data=data_ingestion.initiate_data_ingestion()
     
     data_transformation=DataTransformation()
-    data_transformation.initiate_data_transformation(train_data,test_data)
+    train_array1,test_array1,_=data_transformation.initiate_data_transformation(train_data,test_data)
+    
+    model_trainer=ModelTrainer()
+    print(model_trainer.initiate_model_trainer(train_array1,test_array1))
+    
