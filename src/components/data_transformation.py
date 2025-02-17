@@ -53,4 +53,4 @@ class DataTransformation:
 
         except Exception as e:
             raise Customexception(e, sys)
-            logging.error("Error occurred while transforming the data.")
+    logging.error("Error occurred while transforming the data.")
