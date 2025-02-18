@@ -27,4 +27,4 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Data Ingestion
-        run: python src/data_ingestion.py 
+        run: python app.py 
