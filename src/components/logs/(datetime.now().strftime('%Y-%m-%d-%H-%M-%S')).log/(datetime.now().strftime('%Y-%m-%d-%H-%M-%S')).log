@@ -1,0 +1,13 @@
+2025-02-18 21:02:27,883:INFO:Entered the data ingestion method or component
+2025-02-18 21:02:27,908:INFO:Data read successfully
+2025-02-18 21:02:27,919:INFO:Raw data saved successfully
+2025-02-18 21:02:27,927:INFO:Train-test split done successfully
+2025-02-18 21:02:27,931:INFO:Train data saved successfully
+2025-02-18 21:02:27,934:INFO:Test data saved successfully
+2025-02-18 21:02:27,970:INFO:Data loaded successfully.
+2025-02-18 21:02:27,971:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 21:02:27,971:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 21:02:27,975:INFO:Numerical columns transformation completed.
+2025-02-18 21:02:27,975:INFO:Categorical columns encoding completed.
+2025-02-18 21:02:28,003:INFO:Data transformation completed successfully.
+2025-02-18 21:02:28,003:INFO:Splitting the data into features and target

@@ -18,17 +18,11 @@ def save_object(file_path, obj):
     except Exception as e:
         raise Customexception(e, sys)
 
-def evaluate_model(x_train, y_train, x_test, y_test, models, params):
+def evaluate_model(x_train, y_train, x_test, y_test, models):
     try:
         report = {}
 
         for name, model in models.items():
-            param_grid = params.get(name, {})
-            
-            if param_grid:
-                gs = GridSearchCV(model, param_grid, cv=3, n_jobs=-1)
-                gs.fit(x_train, y_train)
-                model.set_params(**gs.best_params_)
             
             model.fit(x_train, y_train)
             y_pred = model.predict(x_test)
@@ -41,4 +35,15 @@ def evaluate_model(x_train, y_train, x_test, y_test, models, params):
         return report
 
     except Exception as e:
+        raise Customexception(e, sys)
+    
+    
+    
+    
+def load_object(file_path):
+     try:
+        with open(file_path, 'rb') as file:
+            return dill.load(file)  
+        
+     except Exception as e:
         raise Customexception(e, sys)
