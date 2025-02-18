@@ -2,18 +2,20 @@ from flask import Flask, request, render_template
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
-from src.pipeline.predict_pipeline import Customdata, PredictPipeline  # Ensure these exist
+from src.pipeline.predict_pipeline import CustomData, PredictionPipeline  
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder="templates")
 
-@app.route('/')  # Home page
+@app.route("/", methods=["GET", "POST"])
 def home():
-    return render_template('home.html')
+    if request.method == 'POST':
+        return predict()
+    return render_template("index.html")
 
-@app.route('/predictdata', methods=['POST'])
+@app.route('/predict', methods=['POST'])
 def predict():
-    # Extract data from form
-    data = Customdata(
+   
+    data = CustomData(
         gender=request.form.get('gender'),
         race_ethnicity=request.form.get('race_ethnicity'),
         parental_level_of_education=request.form.get('parental_level_of_education'),
@@ -28,10 +30,10 @@ def predict():
     print(pred_df)
     
     # Load prediction pipeline
-    predict_pipeline = PredictPipeline()  # Ensure this class is implemented
+    predict_pipeline = PredictionPipeline()  
     preds = predict_pipeline.predict(pred_df)
     
-    return render_template('home.html', results=preds[0])
+    return render_template('index.html', results=preds[0])
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", debug=True)
