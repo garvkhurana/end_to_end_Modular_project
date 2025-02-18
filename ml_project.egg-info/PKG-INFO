@@ -1,5 +1,15 @@
-Metadata-Version: 2.1
-Name: ml-project
+Metadata-Version: 2.2
+Name: ml_project
 Version: 0.0.1
 Author: garv
 Author-email: garvkhurana1234567@gmail.com
+Requires-Dist: seaborn
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: dill
+Requires-Dist: scikit-learn
+Requires-Dist: xgboost
+Requires-Dist: catboost
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

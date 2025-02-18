@@ -176,3 +176,69 @@
 2025-02-18 01:42:44,740:INFO:Data transformation completed successfully.
 2025-02-18 01:42:44,741:INFO:Splitting the data into features and target
 2025-02-18 01:42:48,532:INFO:Best model found: LinearRegression
+2025-02-18 20:41:50,598:INFO:Entered the data ingestion method or component
+2025-02-18 20:41:50,621:INFO:Data read successfully
+2025-02-18 20:41:50,629:INFO:Raw data saved successfully
+2025-02-18 20:41:50,633:INFO:Train-test split done successfully
+2025-02-18 20:41:50,638:INFO:Train data saved successfully
+2025-02-18 20:41:50,641:INFO:Test data saved successfully
+2025-02-18 20:41:50,676:INFO:Data loaded successfully.
+2025-02-18 20:41:50,676:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:41:50,676:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:41:50,680:INFO:Numerical columns transformation completed.
+2025-02-18 20:41:50,680:INFO:Categorical columns encoding completed.
+2025-02-18 20:41:50,721:INFO:Data transformation completed successfully.
+2025-02-18 20:41:50,721:INFO:Splitting the data into features and target
+2025-02-18 20:42:04,657:ERROR:Error in model training: Error occurred in script: c:\users\garv khurana\onedrive\desktop\end_to_end 2\src\utils.py at line 30 - A task has failed to un-serialize. Please ensure that the arguments of the function are all picklable.
+2025-02-18 20:42:10,212:INFO:Entered the data ingestion method or component
+2025-02-18 20:42:10,232:INFO:Data read successfully
+2025-02-18 20:42:10,241:INFO:Raw data saved successfully
+2025-02-18 20:42:10,244:INFO:Train-test split done successfully
+2025-02-18 20:42:10,249:INFO:Train data saved successfully
+2025-02-18 20:42:10,251:INFO:Test data saved successfully
+2025-02-18 20:42:10,282:INFO:Data loaded successfully.
+2025-02-18 20:42:10,282:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:42:10,282:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:42:10,284:INFO:Numerical columns transformation completed.
+2025-02-18 20:42:10,284:INFO:Categorical columns encoding completed.
+2025-02-18 20:42:10,322:INFO:Data transformation completed successfully.
+2025-02-18 20:42:10,322:INFO:Splitting the data into features and target
+2025-02-18 20:45:14,086:INFO:Entered the data ingestion method or component
+2025-02-18 20:45:14,106:INFO:Data read successfully
+2025-02-18 20:45:14,113:INFO:Raw data saved successfully
+2025-02-18 20:45:14,120:INFO:Train-test split done successfully
+2025-02-18 20:45:14,125:INFO:Train data saved successfully
+2025-02-18 20:45:14,128:INFO:Test data saved successfully
+2025-02-18 20:45:14,156:INFO:Data loaded successfully.
+2025-02-18 20:45:14,157:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:45:14,157:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:45:14,161:INFO:Numerical columns transformation completed.
+2025-02-18 20:45:14,161:INFO:Categorical columns encoding completed.
+2025-02-18 20:45:14,197:INFO:Data transformation completed successfully.
+2025-02-18 20:45:14,197:INFO:Splitting the data into features and target
+2025-02-18 20:48:49,799:INFO:Entered the data ingestion method or component
+2025-02-18 20:48:49,819:INFO:Data read successfully
+2025-02-18 20:48:49,827:INFO:Raw data saved successfully
+2025-02-18 20:48:49,830:INFO:Train-test split done successfully
+2025-02-18 20:48:49,834:INFO:Train data saved successfully
+2025-02-18 20:48:49,837:INFO:Test data saved successfully
+2025-02-18 20:48:49,868:INFO:Data loaded successfully.
+2025-02-18 20:48:49,868:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:48:49,868:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:48:49,870:INFO:Numerical columns transformation completed.
+2025-02-18 20:48:49,870:INFO:Categorical columns encoding completed.
+2025-02-18 20:48:49,907:INFO:Data transformation completed successfully.
+2025-02-18 20:48:49,907:INFO:Splitting the data into features and target
+2025-02-18 20:50:26,776:INFO:Entered the data ingestion method or component
+2025-02-18 20:50:26,802:INFO:Data read successfully
+2025-02-18 20:50:26,812:INFO:Raw data saved successfully
+2025-02-18 20:50:26,815:INFO:Train-test split done successfully
+2025-02-18 20:50:26,823:INFO:Train data saved successfully
+2025-02-18 20:50:26,826:INFO:Test data saved successfully
+2025-02-18 20:50:26,874:INFO:Data loaded successfully.
+2025-02-18 20:50:26,874:INFO:Train Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:50:26,874:INFO:Test Columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course', 'math_score', 'reading_score', 'writing_score']
+2025-02-18 20:50:26,877:INFO:Numerical columns transformation completed.
+2025-02-18 20:50:26,877:INFO:Categorical columns encoding completed.
+2025-02-18 20:50:26,963:INFO:Data transformation completed successfully.
+2025-02-18 20:50:26,964:INFO:Splitting the data into features and target

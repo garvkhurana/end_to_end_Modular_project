@@ -6,8 +6,7 @@ from dataclasses import dataclass
 from src.exception import Customexception  
 from src.logger import logging
 
-from data_transformation import DataTransformation
-from data_transformation import DataTransformationConfig  
+from data_transformation import DataTransformation  
 from model_training import ModelTrainer
 @dataclass
 class DataIngestionConfig:
