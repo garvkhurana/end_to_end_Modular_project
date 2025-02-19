@@ -11,7 +11,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30  # Reduced timeout since we're just testing
+    timeout-minutes: 30
 
     steps:
       - name: Check out code
@@ -27,7 +27,24 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          # Print installed packages for debugging
+          pip freeze
+
+      - name: Check Directory Structure
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Directory contents:"
+          ls -la
+          echo "Template directory contents:"
+          ls -la templates || echo "Templates directory not found"
+          echo "Source directory contents:"
+          ls -la src || echo "Source directory not found"
 
       - name: Run Tests
-        run: python app.py --test
+        run: |
+          # Enable verbose Python errors
+          export PYTHONVERBOSE=1
+          # Run with detailed error output
+          python -v app.py --test
         timeout-minutes: 5
