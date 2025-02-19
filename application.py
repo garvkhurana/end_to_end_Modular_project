@@ -4,7 +4,9 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from src.pipeline.predict_pipeline import CustomData, PredictionPipeline
 
-app = Flask(__name__, template_folder="templates")
+application = Flask(__name__, template_folder="templates")
+
+app=application
 
 @app.route("/", methods=["GET", "POST"])
 def home():
@@ -55,4 +57,4 @@ if __name__ == '__main__':
         sys.exit(0 if success else 1)
     
    
-    app.run(host="0.0.0.0", debug=True)
+    app.run(host="0.0.0.0")
