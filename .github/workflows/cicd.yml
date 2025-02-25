@@ -43,8 +43,6 @@ jobs:
 
       - name: Run Tests
         run: |
-          # Enable verbose Python errors
           export PYTHONVERBOSE=1
-          # Run with detailed error output
           python -v app.py --test
         timeout-minutes: 5
