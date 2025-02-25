@@ -56,15 +56,6 @@ def load_object(file_path):
 
 
 
-import os
-import yaml
-from src.logging import logger
-from ensure import ensure_annotations
-from box import ConfigBox
-from pathlib import Path
-import sys
-from src.exception import Customexception
-
 
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:

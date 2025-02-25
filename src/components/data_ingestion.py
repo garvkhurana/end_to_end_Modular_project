@@ -7,15 +7,38 @@ from src.exception import Customexception
 from src.logger import logging
 from data_transformation import DataTransformation  
 from model_training import ModelTrainer
+from src.utils import read_yaml, create_directories
+from src.constants import CONFIG_FILE_PATH
+
 @dataclass
 class DataIngestionConfig:
-    train_data_path: str = os.path.join('artifacts', 'train.csv')
-    test_data_path: str = os.path.join('artifacts', 'test.csv')
-    raw_data_path: str = os.path.join('artifacts', 'data.csv')
+    root_dir: str
+    raw_data_path: str
+    train_data_path: str
+    test_data_path: str
+    test_size: float
+    random_state: int
 
 class DataIngestion:
-    def __init__(self):
-        self.ingestion_config = DataIngestionConfig()
+    def __init__(self, config_path=CONFIG_FILE_PATH):
+        try:
+            self.config = read_yaml(config_path)  
+            ingestion_config = self.config["data_ingestion"]
+
+            self.ingestion_config = DataIngestionConfig(
+                root_dir=ingestion_config["root_dir"],
+                raw_data_path=ingestion_config["raw_data_path"],
+                train_data_path=ingestion_config["train_data_path"],
+                test_data_path=ingestion_config["test_data_path"],
+                test_size=ingestion_config["test_size"],
+                random_state=ingestion_config["random_state"]
+            )
+
+           
+            create_directories([self.ingestion_config.root_dir])
+
+        except Exception as e:
+            raise Customexception(e, sys)
 
     def initiate_data_ingestion(self):
         logging.info('Entered the data ingestion method or component')
